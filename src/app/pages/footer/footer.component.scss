@@ -1,0 +1,77 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+.container{
+  background-color: #fff;
+  margin-bottom: -1rem;
+  margin-left: 0rem;
+  // font-family: 'Gilroy-Bold', sans-serif;
+  // font-family: 'Gilroy-Heavy', sans-serif;
+  // font-family: 'Gilroy-Light', sans-serif;
+  font-family: 'Gilroy-Medium', sans-serif;
+  // font-family: 'Gilroy-Regular', sans-serif;
+  max-width: 100%;
+  .footer{
+
+    margin-bottom: 1rem;
+    .row{
+      display: flex;
+    justify-content: space-between;
+      .logo{
+        .logo-footer{
+          .l_footer{
+            width: 30%;
+          }
+        }
+        .redes-sociales{
+          .redes-socialees-icons{
+            margin-left: -1rem;
+            i{
+              color: #0bb9b9;
+              //color: #0dcaf0;
+            }
+          }
+        }
+        .flag{
+          margin-top: 2rem;
+          .mex-flag{
+            margin-right: 7px;
+            width: 10%;
+            border-radius: 100%;
+          }
+      }
+        }
+        .bolsa{
+          font-weight: 600;
+          opacity:.8;
+          margin-top: 2rem;
+        }
+        .newsletter{
+          margin-top: 2rem;
+          p{
+            opacity:.8;
+          }
+          h3{
+            font-weight: 600;
+          }
+          .input-newsletter{
+            border-radius: 5px;
+          }
+          .btn-newsletter{
+            margin-top: 7px;
+            background-color: #0bb9b9;
+            border: 0;
+          }
+        }
+
+    }
+  }
+
+  .termscoditions{
+    background-color: black;
+    color: white;
+  }
+}
+
+
+
