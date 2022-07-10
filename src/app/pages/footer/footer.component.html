@@ -38,9 +38,15 @@
       <div class="col-lg-4 col-md-6 col-sm-12 newsletter">
         <h3>Suscríbete a nuestro newsletter:</h3>
       <p>Mantente actualizado con el contenido más relevante y actual.</p>
-      <input type="text" class="input-newsletter col-12" placeholder="ingresa tu correo electronico">
+      <form (ngSubmit)="onSubmit()"  [formGroup]="newsletter">
+        <!-- action="" #newsletter="ngForm"ntrol" -->
+        <input type="text" id="email" name="email" placeholder="ingresa tu correo electronico"
+        required formControlName="email">
+        <div *ngIf="newsletter.get('email')?.touched && newsletter.get('email')?.errors?.['required']"
+              class="alert alert-danger"> ingrese un correo</div>
       <br>
-      <button class="btn btn-dark btn-newsletter col-6">Enviar</button>
+      <button class="btn btn-dark btn-newsletter col-6" [disabled]="newsletter.invalid">Enviar</button>
+      </form>
       </div>
 
 
