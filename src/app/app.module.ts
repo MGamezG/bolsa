@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { TermsAndConditionsComponent } from './pages/terms-and-conditions/terms-and-conditions.component';
+import { NoticeOfPrivacyComponent } from './pages/notice-of-privacy/notice-of-privacy.component';
+import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    TermsAndConditionsComponent
+    TermsAndConditionsComponent,
+    NoticeOfPrivacyComponent,
+    CookiesPolicyComponent
   ],
   imports: [
     BrowserModule,

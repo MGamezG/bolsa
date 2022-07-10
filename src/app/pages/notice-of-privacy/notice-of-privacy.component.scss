@@ -1,0 +1,45 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+.container{
+  margin-top: 5rem;
+text-align: justify;
+width: 60%;
+font-family: 'Gilroy-Medium', sans-serif;
+h1{
+  display: flex;
+justify-content: center;
+margin-bottom: 3rem;
+font-weight: 800;
+}
+p{
+  opacity: .6;
+}
+.legal-email{
+  color: #0bb9b9;
+}
+.ol-principal{
+  li{
+    font-weight: 800;
+  }
+  .ol-second{
+    li{
+      font-weight: 600;
+    }
+    .ol-tree{
+      li{
+        font-weight: bold;
+      }
+      .ul-forh{
+        li{
+          opacity: .6;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+  .ul-5{
+    opacity: .6;
+          font-weight: 100;
+  }
+}
+
+}
