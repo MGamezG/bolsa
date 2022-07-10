@@ -1,0 +1,28 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+.container{
+  margin-top: 5rem;
+text-align: justify;
+width: 50%;
+font-family: 'Gilroy-Medium', sans-serif;
+
+h1{
+  display: flex;
+justify-content: center;
+margin-bottom: 3rem;
+}
+h2{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+p{
+  opacity:.5;
+  a{
+    opacity: 1;
+  }
+}
+li{
+  opacity:.5;
+}
+
+}
